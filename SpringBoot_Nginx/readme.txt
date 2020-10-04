@@ -1,0 +1,1 @@
+NginxSpringBoot是demo源码，另外附上了windos下nginx软件包和编译后的demo jar文件
