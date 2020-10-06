@@ -1,0 +1,10 @@
+server:
+  port: 8081
+eureka:
+  instance:
+    hostname: node1
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://node1:8081/eureka/
