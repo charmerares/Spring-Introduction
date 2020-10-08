@@ -6,16 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-client" />
         <module name="eureka-server" />
+        <module name="eureka-client" />
         <module name="ribbon-restTemplate" />
-        <module name="eureka-client1" />
         <module name="eureka-server1" />
+        <module name="FeignDemo" />
+        <module name="eureka-client1" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="FeignDemo" options="-parameters" />
       <module name="SpringCloudDemo" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-client1" options="-parameters" />
