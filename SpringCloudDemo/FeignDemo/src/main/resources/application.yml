@@ -11,3 +11,8 @@ feign:
 spring:
   application:
     name: feign-client
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream

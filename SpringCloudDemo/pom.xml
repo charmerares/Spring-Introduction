@@ -15,6 +15,7 @@
         <module>eureka-client1</module>
         <module>ribbon-restTemplate</module>
         <module>FeignDemo</module>
+        <module>turble</module>
     </modules>
 
     <parent>
