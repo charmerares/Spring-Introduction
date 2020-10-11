@@ -7,14 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
-        <module name="config-client" />
         <module name="eureka-client" />
         <module name="ribbon-restTemplate" />
         <module name="turble" />
         <module name="GatewayDemo" />
-        <module name="FeignDemo" />
         <module name="ZipkinServer" />
+        <module name="FeignDemo" />
         <module name="config-server" />
+        <module name="config-client" />
         <module name="eureka-client1" />
         <module name="eureka-server1" />
       </profile>
