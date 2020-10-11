@@ -3,7 +3,7 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://node1:8081/eureka/
+      defaultZone: http://localhost:8081/eureka/
 
 feign:
   hystrix:
@@ -11,6 +11,8 @@ feign:
 spring:
   application:
     name: feign-client
+  zipkin:
+    base-url: http://localhost:8093
 management:
   endpoints:
     web:

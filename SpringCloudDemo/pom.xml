@@ -16,6 +16,10 @@
         <module>ribbon-restTemplate</module>
         <module>FeignDemo</module>
         <module>turble</module>
+        <module>config-server</module>
+        <module>config-client</module>
+<!--        <module>GatewayDemo</module>-->
+        <module>ZipkinServer</module>
     </modules>
 
     <parent>
